@@ -26,6 +26,9 @@
   "instances": 1,
   "cpus": 0.5,
   "mem": 512,
+  "labels":{
+    "HAPROXY_GROUP":"external"
+  },
   "healthChecks": [{
       "protocol": "HTTP",
       "path": "/",
